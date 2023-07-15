@@ -7,6 +7,7 @@ usage:
 options:
  -h --help           show this screen.
  -i --images=<path>  path to directory with images
+ -o --output=<path>  path to directory to store images without duplicates. no output means the program will output the list of files but not actually copy them, so the user will need to copy them manually
  -p --plot           whether to plot duplicates.
 '''
 import logging
